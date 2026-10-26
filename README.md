@@ -1,17 +1,33 @@
-# sahubyte_vendor
+# Sahubyte Vendor
 
-A new Flutter project.
+Service-provider Flutter application for receiving customer repair requests, accepting work and managing the on-site service lifecycle. It complements the Sahubyte User app as the operational side of the platform.
 
-## Getting Started
+## Product flow
 
-This project is a starting point for a Flutter application.
+- Technician authentication and profile setup
+- Incoming enquiry review and acceptance
+- Skill and service-area management
+- Assignment and job-status updates
+- Job cards with diagnosis, work notes and required parts
+- Image and document handling
+- Technician ratings and completed-job history
 
-A few resources to get you started if this is your first Flutter project:
+## Engineering highlights
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- MVVM-style separation across views, view models, repositories and network services
+- Typed request and response models for REST workflows
+- Reusable error handling and persistent sessions
+- Responsive Flutter UI for Android, web and desktop targets
+- Media selection and job-document workflows
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tech stack
+
+Flutter, Dart, REST APIs, HTTP, Shared Preferences, Image Picker, Google Fonts, URL Launcher and Open File.
+
+## Related application
+
+The customer booking workflow is available in [Sahubyte User](https://github.com/ashish-kumar108/sahubyte_user).
+
+## Note
+
+This repository demonstrates the Flutter client architecture and product workflow. A compatible backend service is required for live data.
